@@ -152,6 +152,7 @@ li a:hover{
     background-color:#1F1F1F;
     gap: 30px;
     padding-left: 23%;
+    font-size: 25px;
     
 }
  .e1{
@@ -164,6 +165,7 @@ li a:hover{
     margin-left: 10px;
     border: 10px solid #1F1F1F;
     border-radius: 300px;
+   
 }
 .e3 {
     margin-left: 10px;
