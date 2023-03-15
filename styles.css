@@ -1,26 +1,42 @@
 body{
     background-color: blueviolet;
     font-family: sans-serif;
-    margin: 0%;
+    margin: auto;
     padding: 0%;
     user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select:none ;
+    min-width: 280px;
+    min-height: 635px;
+    width: 100%;
+    height: 100%;
+    
    
 }
+.parents{
+ display: flex;
+ justify-content:center ;
+ justify-items: center;
+ align-items: center;
+ align-content: center;
+}
 .container{
-            
+           
           display: grid;
-          max-width:fit-content;
+          max-width: fit-content;
+          max-height: fit-content;
           background-color: white;
           grid-template-columns:750px 354px ;
           grid-template-rows: 300px 300px 300px;
           grid-gap: 2px;
-          min-width: fit-content;
+          /* min-width: fit-content; */
           border: black solid 1px;
-          margin-left: 20%;
-          margin-right: 20%;
           border-radius:25px ;
+          width: auto;
+          height: auto;
+          
+          
+
           
 }
 
@@ -32,13 +48,18 @@ div.item{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    min-width: 305px;
+    /* min-width: 305px; */
     border:white 14px solid;
     overflow: hidden;
     font-family: sans-serif, Arial, Helvetica;
     background-color: #1847D7;
     border-radius: 25px;
+    transform: translate(20px ,10px);
     
+    
+}
+.item :hover{
+    transform: translate(20px , 10px);
     
 }
 div.item h1{
@@ -83,6 +104,8 @@ ul{
   padding-inline: 0;
   overflow: hidden;
   background-color:white;
+  width: 100%;
+  position: fixed;
  
 }
 #l2 {
@@ -154,14 +177,20 @@ li a:hover{
     display: flex;
     background-color:#1F1F1F;
     gap: 30px;
-    padding-left: 23%;
+    /* padding-left: 23%; */
     font-size: 25px;
+    justify-content: center;
     
 }
  .e1{
     color: white;
     text-align: center;
     margin-left:10px;
+}
+.e2{
+    background-color: #1F1F1F;
+    justify-content: space-evenly;
+    width: auto;
 }
 .e2 img{
     
@@ -174,4 +203,5 @@ li a:hover{
     margin-left: 10px;
     text-align: center;
     color: white;
+    background-color: #1F1F1F;
 }
