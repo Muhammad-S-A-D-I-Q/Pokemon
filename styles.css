@@ -64,7 +64,6 @@ div.item{
 }
 div.item h1{
     color: beige;
-    position:relative;
     margin: 0%;
 
     
@@ -105,7 +104,7 @@ ul{
   overflow: hidden;
   background-color:white;
   width: 100%;
-  position: fixed;
+ 
  
 }
 #l2 {
@@ -180,6 +179,7 @@ li a:hover{
     /* padding-left: 23%; */
     font-size: 25px;
     justify-content: center;
+   
     
 }
  .e1{
