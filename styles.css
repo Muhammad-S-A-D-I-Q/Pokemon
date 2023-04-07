@@ -54,14 +54,11 @@ div.item{
     font-family: sans-serif, Arial, Helvetica;
     background-color: #1847D7;
     border-radius: 25px;
-    transform: translate(20px ,10px);
+
     
     
 }
-.item :hover{
-    transform: translate(20px , 10px);
-    
-}
+
 div.item h1{
     color: beige;
     margin: 0%;
